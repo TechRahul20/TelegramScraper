@@ -1,16 +1,16 @@
-#Imports#
+#imports#
 from telethon.sync import TelegramClient
 from telethon.tl.functions.messages import GetDialogsRequest
 from telethon.tl.types import InputPeerEmpty
 import csv
 
-#Login details#
+#login details#
 api_id = xxxxxxx
 api_hash = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 phone = '+xxxxxxxxxxxx'
 client = TelegramClient(phone, api_id, api_hash)
 
-#Check authorisation#
+#check authorisation#
 client.connect()
 if not client.is_user_authorized():
     client.send_code_request(phone)
