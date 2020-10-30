@@ -43,28 +43,24 @@ g_index = input("Enter a Number: ")
 target_group=groups[int(g_index)]
 
 print('Fetching forwards...')
-all_participants = []
-all_participants = client.iter_messages(target_group)
+all_forwards = []
+all_forwards = client.iter_messages(target_group)
+
+print('Creating file...')
+file_name = ""+str(target_group.title)+"_forwards.csv"
 
 print('Saving In file...')
-with open("forwards.csv","w",encoding='UTF-8') as f:
+with open(file_name,"w",encoding='UTF-8') as f:
     writer = csv.writer(f,delimiter=",",lineterminator="\n")
     writer.writerow(['forward id','group','group id'])
-    for user in all_participants:
+    for user in all_forwards:
         if user.forward is not None:
             try:
                 id = user.forward.original_fwd.from_id
                 if id is not None:
-#                    ent = await client.get_entity(id)
                     print(ent.title)
                     l.append([target_group, ent.title])
             except:
               print("An exception occurred")
             writer.writerow([id,target_group.title, target_group.id])
 print('Forwards scraped successfully.')
-
-#async def main():
-    # Getting information about yourself
-#    l = []
-    # You can print the message history of any chat:
-#    async for message in client.iter_messages('CHANNEL NAME'):
