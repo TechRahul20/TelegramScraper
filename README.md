@@ -75,6 +75,6 @@ This project is still being tested and is not currently licensed. Please contact
 All tools created by Jordan Wildon ([@jordanwildon][3]) and Alex Newhouse ([@AlexBNewhouse][4]).
 
 [1]: <https://my.telegram.org/auth?to=apps> "Telegram API"
-[2]: <twitter.com/jordanwildon> "@jordanwildon"
-[3]: <twitter.com/jordanwildon> "@jordanwildon"
-[4]: <twitter.com/AlexBNewhouse> "@AlexBNewhouse"
+[2]: <https:www.twitter.com/jordanwildon> "@jordanwildon"
+[3]: <https:www.twitter.com/jordanwildon> "@jordanwildon"
+[4]: <https:www.twitter.com/AlexBNewhouse> "@AlexBNewhouse"
