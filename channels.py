@@ -43,7 +43,7 @@ async def main():
               print("An exception occurred")
 
     df = pd.DataFrame(l, columns = ['From', 'To'])
-    df.to_csv('ef_edgelist.csv')
+    df.to_csv('edgelist.csv')
 
 with client:
     client.loop.run_until_complete(main())
@@ -54,7 +54,7 @@ next1 = input('Do you also want to scrape forwards from the discovered channels?
 if next1 == 'y':
     print('Scraping forwards from channels discovered in', channel_name, '...')
     async def new_main():
-        df = pd.read_csv('ef_edgelist.csv')
+        df = pd.read_csv('edgelist.csv')
         df = df.To.unique()
         l = []
         for i in df:
