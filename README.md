@@ -13,7 +13,7 @@ pip install telethon
 
 3. Obtain your Telegram API details from [my.telegram.org][1] (further instructions to be added here).
 
-4. In terminal, naviagate to the installation directory (eg, desktop) and run setup.py 
+4. In terminal, navigate to the installation directory (eg, desktop) and run setup.py 
 ```bash
 cd Desktop
 python3 setup.py
@@ -34,7 +34,7 @@ python3 launcher.py
 
 The launcher will guide you through each of the tools. Here is an overview.
 
-1. Scrape group members
+1. _Scrape group members_
 Scrapes all group members from a Telegram group you are part of. Exports as a .CSV containing the username (when available), user id, name, group name and group ID. The file is named after the group.
 
 2. _Scrape forwards from chats you are in_
@@ -54,7 +54,7 @@ Currently only scrapes from user and to user then saves to _ef_edgelist.csv_.
 
 ## Known bugs
 
-1. Sometimes, when using _scrape group members_, returning to the launcher, then selecting scrape forwards from chats you are in, the toolkit will crash. This is an API error and can be avoided by restarting the launcher.
+1. Sometimes, when using _scrape group members_, returning to the launcher, then selecting _scrape forwards from chats you are in_, the toolkit will crash. This is an API error and can be avoided by restarting the launcher.
 2. _Scrape forwards from chats you are in_ displays an error message when you try to pull from _Groups_ rather than _Channels_. Working on a fix to omit groups from the generated list.
 
 ## Feedback
