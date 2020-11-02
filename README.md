@@ -64,16 +64,16 @@ Currently only scrapes from user and to user then saves to _ef_edgelist.csv_.
 
 ## Feedback
 
-Please send all feedback either to ([@jordanwildon][2]) on Twitter, or to jordanwildon@protonmail.com
+Please send all feedback either to (@[jordanwildon][2]) on Twitter, or to jordanwildon@protonmail.com
 
 ## License
 
-This project is still being tested and is not currently licensed. Please contact @([jordanwildon][2]) on Twitter, or email jordanwildon@protonmail.com for usage information and restrictions.
+This project is still being tested and is not currently licensed. Please contact (@[jordanwildon][2]) on Twitter, or email jordanwildon@protonmail.com for usage information and restrictions.
 
 ## Credits
 
-All tools created by Jordan Wildon @([jordanwildon][2]) and Alex Newhouse @([AlexBNewhouse][3]).
+All tools created by Jordan Wildon (@[jordanwildon][2]) and Alex Newhouse (@[AlexBNewhouse][3]).
 
 [1]: <https://my.telegram.org/auth?to=apps> "Telegram API"
-[2]: <https:www.twitter.com/jordanwildon> "@jordanwildon"
-[3]: <https:www.twitter.com/AlexBNewhouse> "@AlexBNewhouse"
+[2]: <https://www.twitter.com/jordanwildon> "@jordanwildon"
+[3]: <https://www.twitter.com/AlexBNewhouse> "@AlexBNewhouse"
