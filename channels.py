@@ -70,7 +70,7 @@ if next1 == 'y':
                         print("An exception occurred")
             print("# # # # # # # # # # Next channel: ", i, "# # # # # # # # # #")
         df = pd.DataFrame(l, columns = ['From', 'To'])
-        df.to_csv("ecofash_net.csv")
+        df.to_csv("net.csv")
 
     with client:
         client.loop.run_until_complete(new_main())
