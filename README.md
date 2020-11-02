@@ -35,10 +35,12 @@ The launcher will guide you through each of the tools. Here is an overview.
 
 1. _Scrape group members_
 Scrapes all group members from a Telegram group you are part of. Exports as a .CSV containing the username (when available), user id, name, group name and group ID. The file is named after the group.
+
 2. _Scrape forwards from chats you are in_
 Scrapes all forwards from a chat you are following. Saves from, from ID, to and to ID to _forwards_data.csv_.
 
-The tool currently doesn't have the expanded feature of scraping from all discovered groups, but these will be added. 
+The tool currently doesn't have the expanded feature of scraping from all discovered groups, but these will be added.
+
 3. _Scrape forwards from a channel_
 Scrapes all forwards from any channel you specify and can then scrape forwards from all the discovered channels for a larger network map. This second feature takes a long time to run, but is worthwhile for a broader analysis.
 
