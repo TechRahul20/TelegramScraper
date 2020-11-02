@@ -1,6 +1,6 @@
 # TelegramScraper
 
-Tool for using Telegram to investigate shady goings on.
+A toolkit for scraping Telegram to investigate shady goings on.
 
 ## Installation
 
@@ -41,22 +41,18 @@ The launcher will guide you through each of the tools. Here is an overview.
 Scrapes all group members from a Telegram group you are part of. Exports as a .CSV containing the username (when available), user id, name, group name and group ID. The file is named after the group.
 
 2. _Scrape forwards from chats you are in_
-Scrapes all forwards from a chat you are following. Saves from, from ID, to and to ID to _forwards_data.csv_.
-
-The tool currently doesn't have the expanded feature of scraping from all discovered groups, but these will be added.
+Scrapes all forwards from a chat you are following. Saves from, from ID, to and to ID to _forwards_data.csv_. It can then scrape forwards from all the discovered channels for a larger network map. This second feature takes a long time to run, but is worthwhile for a broader analysis.
 
 3. _Scrape forwards from a channel_
-Scrapes all forwards from any channel you specify and can then scrape forwards from all the discovered channels for a larger network map. This second feature takes a long time to run, but is worthwhile for a broader analysis.
+Scrapes all forwards from any channel you specify. It can then scrape forwards from all the discovered channels for a larger network map. This second feature takes a long time to run, but is worthwhile for a broader analysis.
 
 Currently only scrapes from user and to user then saves to _ef_edgelist.csv_.
 
 ## Upcoming updates
 
-1. Updating name and descriptions in print fuctions the launcher, etc.
+1. An option to export all data (from user, from user ID, to user, and to ID) OR simply exporting an edgelist for direct analysis.
 
-2. An option to export all data (from user, from user ID, to user, and to ID) OR simply exporting an edgelist for direct analysis.
-
-3. Updating all save files to generate unique names for each group/chat scraped.
+2. Updating all save files to generate unique names for each group/chat scraped.
 
 ## Known bugs
 
