@@ -52,9 +52,11 @@ Currently only scrapes from user and to user then saves to _ef_edgelist.csv_.
 
 ## Upcoming updates
 
-1. An option to export all data (from user, from user ID, to user, and to ID) OR simply exporting an edgelist for direct analysis.
+1. Updating name and descriptions in print fuctions the launcher, etc.
 
-2. Updating all save files to generate unique names for each group/chat scraped.
+2. An option to export all data (from user, from user ID, to user, and to ID) OR simply exporting an edgelist for direct analysis.
+
+3. Updating all save files to generate unique names for each group/chat scraped.
 
 ## Known bugs
 
