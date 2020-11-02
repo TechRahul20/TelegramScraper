@@ -2,8 +2,8 @@ from telethon.sync import TelegramClient
 from telethon import TelegramClient
 
 #launcher code#
-print('Welcome to I NEED A NAME FOR THIS:')
-print('DESCRIPTION')
+print('Welcome to Telegram Scraper')
+print('Please select a function:')
 
 li = ['Scrape group members', 'Scrape forwards from chats you are in', 'Scrape forwards from a channel']
 
