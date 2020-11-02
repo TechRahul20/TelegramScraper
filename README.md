@@ -62,7 +62,7 @@ Please send all feedback either to ([@jordanwildon][2]) on Twitter, or to jordan
 
 ## License
 
-This project is not currently licensed. Please contact @JordanWildon on Twitter, or to jordanwildon@protonmail.com for usage restrictions.
+This project is still being tested and is not currently licensed. Please contact @JordanWildon on Twitter, or email jordanwildon@protonmail.com for usage information and restrictions.
 
 ## Credits
 
