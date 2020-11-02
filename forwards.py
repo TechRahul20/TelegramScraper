@@ -68,6 +68,32 @@ with client:
 
 print('Forwards scraped successfully.')
 
+next1 = input('Do you also want to scrape forwards from the discovered channels? (y/n)')
+if next1 == 'y':
+    print('Scraping forwards from channels discovered in', target_entity.title, '...')
+    async def new_main():
+        df = pd.read_csv('ef_edgelist.csv')
+        df = df.To.unique()
+        l = []
+        for i in df:
+            async for message in client.iter_messages(i):
+                if message.forward is not None:
+                    try:
+                        id = message.forward.original_fwd.from_id
+                        if id is not None:
+                            ent = await client.get_entity(id)
+                            print(ent.title)
+                            l.append([i, ent.title])
+                    except:
+                        print("An exception occurred")
+            print("# # # # # # # # # # Next channel: ", i, "# # # # # # # # # #")
+        df = pd.DataFrame(l, columns = ['From', 'To'])
+        df.to_csv("ecofash_net.csv")
+
+    with client:
+        client.loop.run_until_complete(new_main())
+    print('Forwards scraped successfully.')
+
 again = input('Do you want to scrape more groups? (y/n)')
 if again == 'y':
     print('Restarting...')
