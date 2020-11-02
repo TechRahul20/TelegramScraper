@@ -54,6 +54,8 @@ Currently only scrapes from user and to user then saves to _ef_edgelist.csv_.
 
 2. Updating all save files to generate unique names for each group/chat scraped.
 
+3. Tool to archive all messages and media from a chat.
+
 ## Known bugs
 
 1. Sometimes, when using _scrape group members_, returning to the launcher, then selecting _scrape forwards from chats you are in_, the toolkit will crash. This is an API error and can be avoided by restarting the launcher.
