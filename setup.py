@@ -1,7 +1,7 @@
 #ask user for telegram details and guide them through it
 
-print('Welcome to the I NEED A NAME FOR THIS setup wizard.')
-print('This file will insert your login information to the I NEED A NAME scripts.')
+print('Welcome to the Telegram Scraper setup wizard.')
+print('This file will insert your login information to the Telegram Scraper scripts.')
 print('Follow the README instructions to get your credentials.')
 
 fin1 = open("detailsshell.py", "rt")
