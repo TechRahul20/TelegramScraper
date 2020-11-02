@@ -68,13 +68,12 @@ Please send all feedback either to ([@jordanwildon][2]) on Twitter, or to jordan
 
 ## License
 
-This project is still being tested and is not currently licensed. Please contact @JordanWildon on Twitter, or email jordanwildon@protonmail.com for usage information and restrictions.
+This project is still being tested and is not currently licensed. Please contact @([jordanwildon][2]) on Twitter, or email jordanwildon@protonmail.com for usage information and restrictions.
 
 ## Credits
 
-All tools created by Jordan Wildon ([@jordanwildon][3]) and Alex Newhouse ([@AlexBNewhouse][4]).
+All tools created by Jordan Wildon @([jordanwildon][2]) and Alex Newhouse @([AlexBNewhouse][3]).
 
 [1]: <https://my.telegram.org/auth?to=apps> "Telegram API"
 [2]: <https:www.twitter.com/jordanwildon> "@jordanwildon"
-[3]: <https:www.twitter.com/jordanwildon> "@jordanwildon"
-[4]: <https:www.twitter.com/AlexBNewhouse> "@AlexBNewhouse"
+[3]: <https:www.twitter.com/AlexBNewhouse> "@AlexBNewhouse"
