@@ -11,7 +11,7 @@ pip install pandas
 pip install telethon
 ```
 
-3. Obtain your Telegram API from [my.telegram.org][1] (further instructions to be added here).
+3. Obtain your Telegram API details from [my.telegram.org][1] (further instructions to be added here).
 
 4. In terminal, naviagate to the installation directory (eg, desktop) and run setup.py 
 ```bash
